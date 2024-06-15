@@ -1,7 +1,5 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  basePath: "/teste-motocaSystems-frontEnd",  
-  output: "export",  
+const nextConfig = { 
   reactStrictMode: false,
 }; 
 

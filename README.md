@@ -3,7 +3,7 @@ Projeto teste de consumo e criação de api com next
 
 ## Stack utilizada
 
-React, Next, JavaScript, TypeScript Axios, Api, SASS, Tailwind
+React, Next, JavaScript, TypeScript, Axios, Api, SASS, Tailwind
 
 ## 🔗 Links
 

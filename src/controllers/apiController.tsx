@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BaseUrl = 'https://daniloramosbr.github.io/teste-motocaSystems-frontEnd/api/motors/';
+const BaseUrl = 'http://localhost:3000/api/motors/';
 
 class ApiController {
 
