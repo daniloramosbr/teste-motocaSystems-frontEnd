@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BaseUrl = 'http://localhost:3000/api/motors/';
+const BaseUrl = 'https://teste-motoca-systems-front-end-nine.vercel.app/api/motors/';
 
 class ApiController {
 
