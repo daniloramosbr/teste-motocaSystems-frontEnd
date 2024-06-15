@@ -1,8 +1,6 @@
 import axios from "axios";
 
-const BaseUrl = process.env.NODE_ENV === 'production'
-  ? "https://daniloramosbr.github.io/teste-motocaSystems-frontEnd/api/motors/"        //producao ou desenvolvimento
-  : "http://localhost:3000/teste-motocaSystems-frontEnd/api/motors/";
+const BaseUrl = 'https://daniloramosbr.github.io/teste-motocaSystems-frontEnd/api/motors/';
 
 class ApiController {
 
