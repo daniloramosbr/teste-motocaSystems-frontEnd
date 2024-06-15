@@ -14,11 +14,11 @@ export default function Create() {
 useEffect(()=>{
 
     function RestartForm() {
-      setDataForm({code: "",model: "",color: "",valor: '',status: ""});          //reiniciando state de dados ao acessar a page
+      setDataForm({code: "",model: "",color: "",valor:"",status: ""});          //reiniciando state de dados ao acessar a page
     }
     RestartForm()
 
-},[])
+},[setDataForm])
 
   async function PostData() {
 

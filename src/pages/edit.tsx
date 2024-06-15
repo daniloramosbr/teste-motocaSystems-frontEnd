@@ -36,7 +36,7 @@ async function GetId () {                                      //busca o id forn
 }
 
 GetId()
-},[])
+},[code])
 
 async function EditData() {                //atualiza dados
 

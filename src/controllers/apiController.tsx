@@ -70,4 +70,6 @@ class ApiController {
 
 }
 
-export default new ApiController();
+const apiController = new ApiController();
+
+export default apiController;

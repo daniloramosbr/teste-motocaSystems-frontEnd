@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   basePath: "/teste-motocaSystems-frontEnd",  
-  reactStrictMode: false, 
+  output: "export",  
+  reactStrictMode: false,
 }; 
 
 export default nextConfig;
+

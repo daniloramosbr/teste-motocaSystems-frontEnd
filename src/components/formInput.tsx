@@ -14,19 +14,19 @@ export default function FormInput({opacity, disable, code, model, color, valor, 
 
   const {dataForm, setDataForm} = useContext(ContextJsx)        //dados do context
 
-useEffect(()=>{
-
- function setData() {           //adiconando valores capturados do id para o form
-  setDataForm({
-    code: code,
-    model: model,
-    color: color,
-    valor: valor,
-    status: status
-    })
- }
-setData()
-},[])
+  useEffect(() => {
+    function setData() {             //envia dados para o form ao entrar 
+      setDataForm({
+        code: code,
+        model: model,
+        color: color,
+        valor: valor,
+        status: status
+      });
+    }
+    setData();
+  }, [code, color, model, setDataForm, status, valor])
+  
 
       const HandleChange = (event: any) => {        //funçao que pega os valores do input e manda pro seu determinado state do dataForm
         setDataForm((dataForm: any) => ({
