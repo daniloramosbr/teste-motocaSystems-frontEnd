@@ -16,7 +16,7 @@ export default function Header() {
           className="rounded-full"
           width={60}
           height={60}
-          src="/figma-img.png"
+          src="figma-img.png"
           alt="profile-img"/>
         <div className="bg-green-500 w-5 h-5 absolute rounded-full bottom-0 right-3 border-2 border-custom-border"></div>
       </div>
